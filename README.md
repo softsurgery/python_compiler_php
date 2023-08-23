@@ -43,7 +43,7 @@ python -m venv env
 
 ## Credits
 
-- Gabriel Coelho Template: [Sheet Template](https://codepen.io/userliev/pen/zYNrjRo)
+- Gabriel Coelho's Template: [Sheet Template](https://codepen.io/userliev/pen/zYNrjRo)
 
 ## License
 
