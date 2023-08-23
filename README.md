@@ -5,7 +5,7 @@ This project is a web application that allows users to enter Python code in a te
 ## Technologies Used
 
 - HTML
-- CSS (Bulma framework)
+- CSS
 - JavaScript (AJAX)
 - PHP
 - Python (venv)
