@@ -24,9 +24,11 @@ This project is a web application that allows users to enter Python code in a te
 2. Set up a web server (e.g., Apache, Nginx) and configure it to serve the project directory.
 3. Install virtualenv using pip3
 ``` python3 -m pip install --user virtualenv
+```
 
 4. Now create a virtual environment
 ``` python -m venv env
+```
 
 5. Access the application by opening the index.html file in a web browser.
 
