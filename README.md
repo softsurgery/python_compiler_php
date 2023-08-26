@@ -44,9 +44,4 @@ python -m venv env
 ## Credits
 
 - Gabriel Coelho's Template: [Sheet Template](https://codepen.io/userliev/pen/zYNrjRo)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
