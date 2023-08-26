@@ -19,7 +19,8 @@
                     const result = JSON.parse(xhr.responseText);
 
                     if (result.exitCode === 0) {
-                        outputContainer.textContent = result.output;
+                        if (result.output) outputContainer.textContent = result.output;
+                        else outputContainer.textContent = "Valid Statement"
                     } else {
                         outputContainer.textContent = "Error: " + result.output;
                     }
