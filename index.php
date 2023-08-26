@@ -4,6 +4,7 @@
 <head>
     <title>Python Code Execution</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script>
         function executeCode() {
             const code = document.getElementsByName("python-code")[0].innerText;
@@ -36,6 +37,10 @@
 
         body {
             background-color: #123;
+            margin: 0;
+        }
+
+        .main{
             display: flex;
             margin: 0;
             justify-content: center;
@@ -59,9 +64,9 @@
             font-size: 20px;
             line-break: anywhere;
             line-height: 30px;
-            min-height: 100vh;
+            min-height: 96vh;
             padding: 0 20px 0 100px;
-            width: 50vw;
+            width: 42vw;
             margin: 20px;
         }
 
@@ -74,7 +79,8 @@
 </head>
 
 <body>
-    <div class="paper-container">
+    <div class="main">
+        <div class="paper-container">
         <span name="python-code" class="sheet textarea" role="textbox" spellcheck="false" contenteditable="true">
             print("Hello World")
         </span>
@@ -86,5 +92,7 @@
             Execute Code...
         </span>
     </div>
+    </div>
+    
 </body>
 </html>
